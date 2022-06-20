@@ -37,6 +37,7 @@ public class Main {
             System.out.println();
         }
     }
+    
     static void Pattern30(int n) {
         for (int row = 1; row <= n; row++) {
             int totalspaces = n - row;
