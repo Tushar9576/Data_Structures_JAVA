@@ -1,3 +1,5 @@
+// The value of every Node should be equal to the sum of its child Nodes [both left and right]
+
 public class childsum {
     static class Node{
         int key;
