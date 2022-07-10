@@ -35,7 +35,7 @@ public class levelorderline {
                 q.add(null);
                 continue;
             }
-            System.out.println(root.key + " ");
+            System.out.println(curr.key + " ");
             if(curr.left != null){
                 q.add(curr.left);
             }
