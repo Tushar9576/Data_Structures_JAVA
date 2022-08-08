@@ -1,6 +1,6 @@
 
 // T.c : O(W*n)
-/* This solution is even worse than recursive for larger values of  */
+/* This solution is even worse than recursive for larger values of W */
 public class zero_one_knapsack_dp {
     static int knapsack(int w, int[] wt, int[] val, int n){
         int[][] dp = new int[n + 1][w + 1];
